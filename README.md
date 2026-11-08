@@ -64,7 +64,7 @@ Rejecting the top-risk group lowers the portfolio bad rate from 26.2% to 20.9%.
 
 ## Live demo
 
-`app.py` is a Streamlit app that scores a new application and shows its probability of default, risk band and recommended action.
+`app.py` is a Streamlit app that scores a new application and shows its probability of default, risk band and recommended action. It can also score a whole CSV at once and download the results; `sample_applications.csv` is a ready-to-try example of 50 loans from 2014.
 
 Demo link: [Streamlit app link]
 
@@ -78,6 +78,7 @@ It is a portfolio demo, not a validated credit decision tool.
 | `credit_risk_prediction.py` | The same code as a Python script |
 | `credit_risk_analysis.sql` | SQL workflow for data checks, analysis and the modeling dataset (PostgreSQL) |
 | `app.py` | Streamlit demo app |
+| `sample_applications.csv` | 50 sample loans for the app's batch scoring |
 | `credit_risk_lib.py` | Feature engineering shared by the app and the training script |
 | `train_model.py` | Trains and saves the model used by the app |
 | `model/` | Saved model and its cutoffs |
