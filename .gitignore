@@ -1,0 +1,5 @@
+# Dataset is too large for GitHub (limit 100 MB per file)
+*.csv
+__pycache__/
+.ipynb_checkpoints/
+.venv/
